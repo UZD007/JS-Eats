@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.btn {
+    background: #FC004A;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14.75px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 12px;
+    border: none;
+    padding: 6px 41px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #000000;
+}
+
+header {
+    padding: 21px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero1 .container {
+    text-align: center;
+    margin-top: 63px;
+    margin-bottom: 63px;
+}
+
+.bola {
+    width: 235px;
+    height: 391px;
+    box-shadow: 0px 4px 6px -4px #0000001A;
+    box-shadow: 0px 10px 15px -3px #0000001A;
+    border-radius: 15px;
+    margin-top: 56px;
+}
+
+.af {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 17.66px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #000000;
+    margin-top: 16px;
+    margin-left: 12px;
+}
+
+.sa {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 18.28px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FC004A;
+    margin-left: 12px;
+    margin-top: 8px;
+}
+
+.btn2 {
+    width: 55px;
+    height: 55px;
+    border-radius: 25px;
+    background-color: pink;
+    border: none;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+.fad{
+    font-family: Inter;
+font-weight: 400;
+font-size: 32.48px;
+line-height: 40px;
+letter-spacing: 0%;
+vertical-align: middle;
+color: #262626;
+}
+.ota{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 61px;
+}
+footer{
+    padding: 26px 0;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
